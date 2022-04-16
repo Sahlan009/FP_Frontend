@@ -1,0 +1,13 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.listuser{
+  opacity: 0.9;
+}
+.listuser:hover{
+  opacity: 1;
+}
