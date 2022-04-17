@@ -34,7 +34,7 @@ function Homepage() {
         p={3}
         bg="#FFFBE7"
         w="85%"
-        m="70px 0 10px 0"
+        m="80px 0 10px 0"
         borderRadius="20px"
         borderWidth="2px"
         borderColor="orange"
