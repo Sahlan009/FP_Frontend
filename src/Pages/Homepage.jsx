@@ -30,10 +30,11 @@ function Homepage() {
       <Box
         d="flex"
         justifyContent="center"
+        alignItems="center"
         p={3}
         bg="#FFFBE7"
-        w="75%"
-        m="20px 0 10px 0"
+        w="85%"
+        m="70px 0 10px 0"
         borderRadius="20px"
         borderWidth="2px"
         borderColor="orange"
@@ -43,7 +44,7 @@ function Homepage() {
           Chat App
         </Text>
       </Box>
-      <Box bg="#FFFBE7" m="10px 0 50px 0" w="80%" p={10} borderRadius="20px" borderWidth="2px" borderColor="orange">
+      <Box bg="#FFFBE7" m="10px 0 50px 0" w="85%" p={10} borderRadius="20px" borderWidth="2px" borderColor="orange">
         <Tabs isFitted variant="soft-rounded">
           <TabList mb="0.5em">
             <Tab>Login</Tab>
