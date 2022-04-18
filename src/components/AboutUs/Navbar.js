@@ -12,8 +12,8 @@ import { BellIcon, ChevronDownIcon } from "@chakra-ui/icons";
 import { Avatar } from "@chakra-ui/avatar";
 import { useHistory } from "react-router-dom";
 import ProfileModal from "../miscellaneous/ProfileModal";
-// import NotificationBadge from "react-notification-badge";
-// import { Effect } from "react-notification-badge";
+import NotificationBadge from "react-notification-badge";
+import { Effect } from "react-notification-badge";
 import { getSender } from "../../config/ChatLogics";
 import { ChatState } from "../../Context/ChatProvider";
 import { Image } from '@chakra-ui/react'
@@ -62,10 +62,10 @@ function Navbar() {
         <div>
           <Menu>
             <MenuButton p={1}>
-              {/* <NotificationBadge
+              <NotificationBadge
                 count={notification.length}
                 effect={Effect.SCALE}
-              /> */}
+              />
               <BellIcon fontSize="2xl" m={1} />
             </MenuButton>
             <MenuList pl={2}>
