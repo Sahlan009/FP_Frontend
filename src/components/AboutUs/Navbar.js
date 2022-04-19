@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from "@chakra-ui/button";
 import { Box, Text } from "@chakra-ui/layout";
 import {
@@ -50,6 +51,8 @@ function Navbar() {
         w="100%"
         p="5px 10px 5px 10px"
         borderRadius="15px"
+        borderWidth='2px'
+        borderColor='orange'
       >
         <Tooltip bg="orange" label="Back to Chat Page" hasArrow placement="bottom-end">
           <Button  bg="orange" variant="ghost" onClick={BackHandler}>Back

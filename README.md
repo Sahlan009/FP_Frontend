@@ -5,6 +5,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+npm i react@16.8 react-dom@16.8
+npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^6
+npm i react-router-dom@5
+npm i axios
+npm i @chakra-ui/icon
+npm i @chakra-ui/icons
+nmp i @chakra-ui/menu
+npm i react-scroll
+npm i socket.io-client
+npm i react-lottie
+npm i react-notification-badge
 
 ### `npm start`
 

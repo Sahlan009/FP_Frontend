@@ -1,3 +1,4 @@
+import React from "react";
 import { ViewIcon } from "@chakra-ui/icons";
 import {
   Modal,
@@ -83,7 +84,6 @@ const UpdateGroupChatModal = ({ fetchMessages, fetchAgain, setFetchAgain }) => {
       );
 
       console.log(data._id);
-      // setSelectedChat("");
       setSelectedChat(data);
       setFetchAgain(!fetchAgain);
       setRenameLoading(false);
