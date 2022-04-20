@@ -39,9 +39,9 @@ function Homepage() {
         borderWidth="2px"
         borderColor="orange"
         >
-        <Text d="flex" alignItems="center" justifyContent="center" fontSize="4xl" fontFamily="Work sans">
-          <Image h="4rem" src={Logo} alt="logo" />
-          Chat App
+        <Text d="flex" alignItems="center" justifyContent="center" fontSize="4xl" fontFamily="Poppins">
+          <Image h="4rem" px=".5rem" src={Logo} alt="logo" />
+          transmit
         </Text>
       </Box>
       <Box bg="#FFFBE7" m="10px 0 50px 0" w="85%" p={10} borderRadius="20px" borderWidth="2px" borderColor="orange">

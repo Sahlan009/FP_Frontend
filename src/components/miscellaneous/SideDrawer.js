@@ -150,9 +150,9 @@ function SideDrawer() {
             </Text>
           </Button>
         </Tooltip>
-        <Text  d="flex" alignItems="center" justifyContent="center" fontSize="2xl" fontFamily="Work sans">
-        <Image h="3rem" src={Logo} alt="logo" />
-          Chat App
+        <Text  d="flex" alignItems="center" justifyContent="center" fontSize="3xl" fontFamily="Poppins">
+        <Image h="3rem" px=".5rem" src={Logo} alt="logo"  />
+          transmit
         </Text>
         <div>
           <Menu>
