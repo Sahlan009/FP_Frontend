@@ -3,7 +3,7 @@ import "./App.css";
 import Homepage from "./Pages/Homepage";
 import { Route } from "react-router-dom";
 import Chatpage from "./Pages/Chatpage";
-import AboutUs from "./Pages/AbousUs";
+import AboutUs from "./Pages/AboutUs";
 
 function App() {
   return (
