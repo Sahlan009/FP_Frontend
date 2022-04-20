@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from "@chakra-ui/button";
 import { useDisclosure } from "@chakra-ui/hooks";
 import { Input } from "@chakra-ui/input";
@@ -189,7 +190,7 @@ function SideDrawer() {
                 src={user.pic}
               />
             </MenuButton>
-            <MenuList>
+            <MenuList bg="#FFFBE7" >
               <ProfileModal user={user}>
                 <MenuItem>My Profile</MenuItem>{" "}
               </ProfileModal>
@@ -201,11 +202,11 @@ function SideDrawer() {
         </div>
       </Box>
 
-      <Drawer placement="left" onClose={onClose} isOpen={isOpen}>
+      <Drawer placement="left" onClose={onClose} isOpen={isOpen} >
         <DrawerOverlay />
-        <DrawerContent>
+        <DrawerContent bg="orange">
           <DrawerHeader borderBottomWidth="1px">Search Users</DrawerHeader>
-          <DrawerBody>
+          <DrawerBody bg="#FFFBE7">
             <Box d="flex" pb={2}>
               <Input
                 placeholder="Search by name or email"

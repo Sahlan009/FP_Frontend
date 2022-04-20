@@ -1,3 +1,4 @@
+import React from "react";
 import { Avatar } from "@chakra-ui/avatar";
 import { Tooltip } from "@chakra-ui/react";
 import { Element } from "react-scroll";

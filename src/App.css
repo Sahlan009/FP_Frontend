@@ -6,7 +6,7 @@
   background-image: linear-gradient(115deg,
     rgba(0, 119, 182, 0.1),
     rgba(173, 232, 244, 0.1)),
-  url("./chat-background.jpg");
+  url("./assets/chat-background.jpg");
   background-position: center;
   background-size: cover;
 }
